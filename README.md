@@ -43,3 +43,62 @@ GABRIEL PEREIRA SODRE]
 
 ---
 
+🧠 **Projeto PILHAS ESTATICAS REPL – Parte 2 (GRUPO 01)**
+
+## 📌 Descrição
+
+Este repositório contém a segunda parte do desenvolvimento de um interpretador simples (REPL – Read-Eval-Print Loop) em linguagem C.
+
+Nesta etapa, o projeto evoluiu para incluir **suporte a variáveis**, permitindo armazenar valores e recuperá-los posteriormente durante a execução dos comandos.
+## 🗂️ Estrutura do Projeto
+
+- `main.c`: Contém a função principal e o loop do REPL.
+- `interpret.c` / `interpret.h`: Implementa a lógica de interpretação e execução de comandos, incluindo o suporte a variáveis.
+- `stack.c` / `stack.h`: Define e implementa a pilha (stack) com operações fundamentais (`push`, `pop`, etc.). **(Não alterados nesta etapa)**
+
+## ✅ Funcionalidades Implementadas
+
+### Funcionalidades da Etapa 1:
+
+- Loop de leitura e execução contínua de comandos.
+- Estrutura de pilha com alocação dinâmica.
+- Interpretação de comandos básicos:
+  - `push <valor>`
+  - `add`
+  - `sub`
+  - `mul`
+  - `div`
+  - `print`
+- Modularização do código com separação de responsabilidades.
+
+### Novas Funcionalidades da Etapa 2:
+
+- **Suporte a Variáveis**
+  - **store `<nome>`**: Armazena o valor no topo da pilha em uma variável.
+  - **load `<nome>`**: Recupera o valor da variável e empilha novamente.
+
+## ⚙️ Instruções para Compilar e Executar
+
+### Compilar:
+
+```bash
+gcc main.c interpret.c stack.c -o interpretador
+
+🔗 Repositório GitHub
+https://github.com/CristhianRCC/Est.DDS
+
+📝 Observações
+As futuras partes podem incluir ainda mais funcionalidades como controle de fluxo e avaliação de expressões mais complexas.
+
+A estrutura da pilha (stack.c e stack.h) foi mantida sem alterações, conforme exigência da atividade.
+
+Código modularizado visando fácil expansão.
+
+👨‍💻 Autores
+ARTHUR RODRIGUES CAMPOS
+
+CRISTHIAN RENAN CAMPOS COSTA
+
+FABIO CARVALHO EVERTON
+
+GABRIEL PEREIRA SODRE
