@@ -84,21 +84,3 @@ Nesta etapa, o projeto evoluiu para incluir **suporte a variáveis**, permitindo
 ```bash
 gcc main.c interpret.c stack.c -o interpretador
 
-🔗 Repositório GitHub
-https://github.com/CristhianRCC/Est.DDS
-
-📝 Observações
-As futuras partes podem incluir ainda mais funcionalidades como controle de fluxo e avaliação de expressões mais complexas.
-
-A estrutura da pilha (stack.c e stack.h) foi mantida sem alterações, conforme exigência da atividade.
-
-Código modularizado visando fácil expansão.
-
-👨‍💻 Autores
-ARTHUR RODRIGUES CAMPOS
-
-CRISTHIAN RENAN CAMPOS COSTA
-
-FABIO CARVALHO EVERTON
-
-GABRIEL PEREIRA SODRE
