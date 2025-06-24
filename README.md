@@ -1,4 +1,4 @@
-# 🧠 Projeto PILHAS ESTATICAS REPL – Parte 1
+# 🧠 Projeto PILHAS ESTATICAS REPL – Parte 1 (GRUPO 01)
 
 ## 📌 Descrição
 

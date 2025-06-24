@@ -1,6 +1,6 @@
-#ifndef interprete_h
-#define interprete_h
+#ifndef INTERPRETE_H
+#define INTERPRETE_H
 
-void interpret (const char *source) ;
-void interpreter_init();
+void interpretar_comando(const char *source);
+
 #endif
